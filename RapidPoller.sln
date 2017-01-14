@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPoller", "RapidPoller\RapidPoller.csproj", "{47BD077E-4C6D-4A32-AF09-6F36AE037620}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPoller.Host.Command", "RapidPoller.Host.Command\RapidPoller.Host.Command.csproj", "{47BD077E-4C6D-4A32-AF09-6F36AE037620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPoller.Repository.Mongo", "RapidPoller.Repository.Mongo\RapidPoller.Repository.Mongo.csproj", "{B2812AE4-3C0E-4118-8CA0-2F46D279FF84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPoller.Models", "RapidPoller.Models\RapidPoller.Models.csproj", "{FB69F3FB-4C1C-482F-8911-7549F5478577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{47BD077E-4C6D-4A32-AF09-6F36AE037620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47BD077E-4C6D-4A32-AF09-6F36AE037620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47BD077E-4C6D-4A32-AF09-6F36AE037620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2812AE4-3C0E-4118-8CA0-2F46D279FF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2812AE4-3C0E-4118-8CA0-2F46D279FF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2812AE4-3C0E-4118-8CA0-2F46D279FF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2812AE4-3C0E-4118-8CA0-2F46D279FF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB69F3FB-4C1C-482F-8911-7549F5478577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB69F3FB-4C1C-482F-8911-7549F5478577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB69F3FB-4C1C-482F-8911-7549F5478577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB69F3FB-4C1C-482F-8911-7549F5478577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
